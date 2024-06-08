@@ -1,4 +1,4 @@
-# CyberGuard
+# CyberGuard (Ongoing project)
 
 In the face of skyrocketing global cybercrime costs surpassing $6 trillion and increasingly sophisticated attacks, our industry confronts a pressing challenge. It is in response to this critical need that we proudly introduce **CyberGuard**: a comprehensive platform meticulously designed to empower both individuals and organizations in their ongoing battle against cybercrime.
 

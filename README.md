@@ -70,7 +70,7 @@ We welcome contributions to CyberGuard! If you have suggestions for improvements
 
 ## Contact
 
-For further inquiries or issues, please contact [your-email@example.com](mailto:sudeepsahu58@gmail.com).
+For further inquiries or issues, please contact [sudeepsahu58@gmail.com](mailto:sudeepsahu58@gmail.com).
 
 ---
 

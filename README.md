@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# CyberGuard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In the face of skyrocketing global cybercrime costs surpassing $6 trillion and increasingly sophisticated attacks, our industry confronts a pressing challenge. It is in response to this critical need that we proudly introduce **CyberGuard**: a comprehensive platform meticulously designed to empower both individuals and organizations in their ongoing battle against cybercrime.
 
-## Available Scripts
+![CyberGuard](public/Home.png)
+![CyberGuard](public/RegisteraComplaint.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Real-time Threat Detection**: Monitor and respond to cyber threats as they occur.
+- **Comprehensive Reporting**: Generate detailed reports on security incidents and vulnerabilities.
+- **User-friendly Dashboard**: Intuitive interface for easy navigation and management.
+- **Advanced Analytics**: Leverage AI and machine learning to predict and prevent cyber attacks.
+- **Easy User Registration**: Simple and secure user registration process.
+- **Admin Portal Access**: Dedicated portal for administrators to manage and oversee activities.
+- **FAQ Section**: Comprehensive FAQ section to assist users with common queries.
+- **Streamlined Reporting Forms**: Efficient forms for users to report cybercrime incidents.
+- **Cybercrime Tutorials and Resources**: Educational resources to help users understand and combat cybercrime.
+- **Feedback Mechanism**: Easy-to-use feedback system for users to share their experiences and suggestions.
+- **Legal Disclaimers**: Clear and concise legal disclaimers for user protection.
+- **Handy Links Repository**: Collection of useful links related to cyber security.
+- **Convenient Contact Options**: Multiple contact options for user support.
+- **Required Complaint Documents**: List of necessary documents for filing complaints.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technology Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **MongoDB**: NoSQL database for storing user data and application information.
+- **React.js**: Frontend library for building user interfaces.
+- **Node.js**: JavaScript runtime for the backend server.
+- **Express.js**: Web framework for Node.js to handle server-side logic.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get started with CyberGuard, follow these steps:
 
-### `npm run build`
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/yourusername/cyberguard.git
+    cd cyberguard
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies**:
+    ```sh
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Run the app**:
+    ```sh
+    npm start
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For more detailed instructions on using Create React App scripts, refer to the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### `npm run eject`
+## Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To deploy the CyberGuard application, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Build the app**:
+    ```sh
+    npm run build
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Deploy the build**:
+    - Upload the contents of the `build` folder to your web server or hosting service.
+    - For detailed deployment guides, refer to the [deployment documentation](https://facebook.github.io/create-react-app/docs/deployment).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+We welcome contributions to CyberGuard! If you have suggestions for improvements or new features, feel free to create a pull request. Please see our [contributing guidelines](CONTRIBUTING.md) for more information.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Code Splitting
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For further inquiries or issues, please contact [your-email@example.com](mailto:your-email@example.com).
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+  Made with ❤️ by the CyberGuard Team
+</p>

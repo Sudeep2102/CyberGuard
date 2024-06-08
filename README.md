@@ -66,15 +66,11 @@ To deploy the CyberGuard application, follow these steps:
 
 ## Contributing
 
-We welcome contributions to CyberGuard! If you have suggestions for improvements or new features, feel free to create a pull request. Please see our [contributing guidelines](CONTRIBUTING.md) for more information.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+We welcome contributions to CyberGuard! If you have suggestions for improvements or new features, feel free to create a pull request.
 
 ## Contact
 
-For further inquiries or issues, please contact [your-email@example.com](mailto:your-email@example.com).
+For further inquiries or issues, please contact [your-email@example.com](mailto:sudeepsahu58@gmail.com).
 
 ---
 

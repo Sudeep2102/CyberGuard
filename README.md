@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # CyberGuard
 =======
 # CyberGuard (Ongoing project)

@@ -1,0 +1,45 @@
+.privacy-policy-body{
+  background-color: #f0f8ff; /* Light blue background color */
+}
+
+.privacy-policy-container {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.privacy-policy-content {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h4 {
+  margin-bottom: 10px;
+}
+
+.section p {
+  margin-left: 20px;
+  text-align: justify;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .privacy-policy-container {
+    padding: 10px;
+  }
+  
+  .privacy-policy-content {
+    padding: 10px;
+  }
+  
+  .section p {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,99 @@
+.rectangle {
+  width: 100%;
+  height: 42px;
+  top: 112px;
+  bottom: 0px;
+  background: #2EC5CB;
+  display: flex;
+  align-items: center;
+  /* overflow-x: auto; removed  */  /* Disable horizontal scrolling for smaller screens */
+  white-space: nowrap; /* Prevent button wrapping */
+  margin-bottom: 0px;
+}
+
+.special-button {
+  background-color: transparent; /* Different color for special button */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  height: 100%; /* Height of the rectangle */
+  min-width: 100px; /* Adjust min-width as needed */
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Add padding transition */
+}
+
+.text-button {
+  background-color: transparent;
+  color: #002839; /* Color for text buttons */
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px; /* Add spacing between buttons */
+  min-width: 80px; /* Adjust min-width as needed */
+  font-weight: 700;
+  padding: 10px 12px; /* Increase padding */
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Add padding transition */
+  text-decoration: none;
+}
+
+.text-button1{
+  background-color: transparent;
+  color: #002839; /* Color for text buttons */
+  font-size: 16px;
+  border: none;
+  cursor: pointer; /* Add spacing between buttons */
+  min-width: 50px; /* Adjust min-width as needed */
+  font-weight: 700;
+  padding: 10px 25px; /* Increase padding */
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Add padding transition */
+  text-decoration: none;
+}
+
+.text-button2{
+  background-color: transparent;
+  color: #002839; /* Color for text buttons */
+  font-size: 16px;
+  border: none;
+  cursor: pointer; /* Add spacing between buttons */
+  min-width: 35px; /* Adjust min-width as needed */
+  font-weight: 700;
+  padding: 10px 25px; /* Increase padding */
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Add padding transition */
+  text-decoration: none;
+}
+
+.icon{
+  font-size: 25px;
+  padding: 10px 40px;
+}
+
+/* Change color on hover and increase padding */
+.special-button:hover {
+  background-color: #20959C; /* Change to desired hover color */
+}
+
+.text-button:hover {
+  background-color: #20959C; /* Change to desired hover color */
+}
+.text-button1:hover {
+  background-color: #20959C; /* Change to desired hover color */
+}
+.text-button2:hover {
+  background-color: #20959C; /* Change to desired hover color */
+}
+
+
+@media screen and (max-width: 768px) {
+  .rectangle {
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    height: auto; /* Auto height for the list */
+  }
+
+  .special-button, .text-button {
+    width: 100%;
+    margin-right: 0; /* Remove right margin */
+  }
+}

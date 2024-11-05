@@ -1,0 +1,71 @@
+.comp-content {
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+  padding: 20px;
+  text-align: center;
+}
+
+.rect-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rect {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.rect img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.rect h2 {
+  margin-top: 10px;
+}
+
+.rect button {
+  margin-top: 10px;
+}
+
+.rect1 {
+  background-color: #FB7456;
+}
+
+.rect2 {
+  background-color: #D299FF;
+}
+
+.rect3 {
+  background-color: #FFC85E;
+}
+
+.rect button {
+  background: #01E8F7;
+  border-radius: 15px;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.rect button:hover {
+  background: #00c6e6;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .rect-container {
+    flex-direction: column;
+  }
+
+  .rect {
+    margin: 10px; /* Add margin for spacing */
+  }
+}

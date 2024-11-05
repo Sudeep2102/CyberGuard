@@ -1,0 +1,54 @@
+/* faq.css */
+.faq {
+  background-color: #f0f8ff; /* Light blue background color */
+  padding: 20px;
+}
+
+.faq h1 {
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Create 1 column layout */
+  gap: 20px; /* Add gap between grid items */
+}
+
+.grid-item {
+  position: relative; /* Position relative for button positioning */
+  background-color: rgba(255, 255, 255, 0.5); /* White box with 50% transparency */
+  padding: 20px;
+  width: 80%; /* Width of each grid item */
+  margin: 0 auto; /* Center the grid items */
+}
+
+.grid-item h3 {
+  font-weight: bold;
+}
+
+.grid-item p {
+  text-indent: 20px;
+}
+
+.arrow-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive CSS */
+@media only screen and (max-width: 768px) {
+  .grid-item {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .grid-item {
+    width: 95%; /* Further adjust width for even smaller screens */
+  }
+}

@@ -1,0 +1,40 @@
+/* contactUs.css */
+.contact-us {
+  background-color: #f0f8ff; /* Light blue background color */
+  padding: 20px;
+}
+
+.contact-us h1 {
+  margin-bottom: 20px;
+}
+
+.contact-box {
+  background-color: rgba(255, 255, 255, 0.9); /* Contact box with 80% transparency */
+  padding: 20px;
+  margin-bottom: 20px; /* Add margin to create space between boxes */
+}
+
+.contact-box h3 {
+  font-weight: bold;
+}
+
+.contact-box p {
+  text-indent: 20px;
+}
+
+/* Style for images */
+.contact-us img {
+  height: 24px; /* Maintain original height */
+  width: auto; /* Maintain aspect ratio */
+}
+
+/* Position phone image */
+.contact-us img.phone {
+  float: right; /* Align phone image to the right */
+  margin-left: 10px; /* Add margin between phone and mail images */
+}
+
+/* Position mail image */
+.contact-us img.mail {
+  float: right; /* Align mail image to the right */
+}

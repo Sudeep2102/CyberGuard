@@ -1,0 +1,17 @@
+.slider-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.slider-rectangle {
+  background-color: #2EC5CB;
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.slider-text {
+  color: black;
+  font-size: 16px;
+  margin: 0;
+}

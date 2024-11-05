@@ -1,0 +1,50 @@
+.filling-complaint {
+  background-color: #f0f8ff; /* Light blue background color */
+  padding: 20px;
+  text-align: center;
+}
+
+.filling-complaint h1 {
+  margin-bottom: 20px;
+}
+
+.white-box1 {
+  background-color: rgba(255, 255, 255, 0.9); /* White box with 50% transparency */
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto; /* Center the white box */
+}
+
+.white-box1 h3 {
+  font-weight: bold;
+}
+
+.white-box1 p {
+  text-indent: 20px;
+}
+
+.terms {
+  margin-top: 20px;
+}
+
+.privacy-policy {
+  color: blue;
+  cursor: pointer;
+}
+
+.accept-button {
+  margin-top: 20px;
+  background-color: green; /* Change button background color to green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 768px) {
+  .white-box1 {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}

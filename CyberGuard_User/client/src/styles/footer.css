@@ -1,0 +1,46 @@
+.footer {
+  background-color: #2694B6;
+  color: #fff;
+  padding: 0px 20px; /* Adjust padding to reduce height */
+}
+
+.button-container {
+  display: flex;
+}
+
+.footer-button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 14px 16px; /* Adjust padding for button size */
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Change background-color instead of color */
+}
+
+.footer-button:hover {
+  background-color: #2EC5CB; /* Change to desired hover color */
+  padding: 10px 20px;
+}
+
+.divider {
+  width: 1px;
+  background-color: #fff;
+  margin: 0 8px; /* Adjust margin as needed */
+}
+
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .footer-button {
+    margin-bottom: 8px; /* Adjust margin between buttons in mobile view */
+  }
+}

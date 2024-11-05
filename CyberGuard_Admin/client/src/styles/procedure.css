@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-row {
+  display: flex;
+  /* Remove gap property if previously added */
+}
+
+.image-wrapper {
+  display: flex; /* Make the wrapper a flex container */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Align content horizontally */
+  position: relative; /* Enable absolute positioning for arrow */
+  margin: 0 60px; /* Adjust margin for spacing between wrappers */
+  p {
+    text-align: center;
+  }
+
+  /* Reduce gap between headings and text */
+  h3 + p {
+    margin-top: 5px; /* Adjust as needed */
+  }
+}
+
+.image-row img {
+  margin: 0 60px; /* Remove margin from images */
+}
+
+.arrow {
+  position: absolute; /* Position arrow absolutely within the wrapper */
+  top: 30%; /* Center arrow vertically within the wrapper */
+  left: calc(80% - 5.5px); /* Center arrow horizontally (adjust based on image and desired position) */
+  /* Adjust width and height based on your arrow image (here: 191px and 96px) */
+  width: 170px;
+  height: 65px;
+  transform: translateY(-50%); /* Offset vertical positioning for centering */
+}
+
+/* Media Queries for Responsive Adjustments */
+
+@media (max-width: 768px) {
+  .image-row {
+    /* Adjust layout or image sizes as needed for smaller screens */
+
+    /* Hide the arrows on smaller screens */
+    .image-wrapper .arrow {
+      display: none;
+    }
+  }
+}

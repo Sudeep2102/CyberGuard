@@ -1,0 +1,63 @@
+/* Header.css */
+
+.header-container {
+  display: flex;
+  align-items: center; /* Center-align items vertically */
+  justify-content: space-between; /* Add space between items */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.logo-image {
+  width: 200px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.header-text {
+  font-size: 14px; /* Adjust font size smaller than logo */
+  font-family: 'Arimo', sans-serif; /* Specify font family */
+  font-weight: 400;
+  color: #000000;
+  margin-left: 70px; /* Add left margin space */
+  margin-top: -3.5%;
+}
+
+.register-button, .login-button {
+  width: 120px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  background: #2EC5CB;
+  border-radius: 10px;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.login-button {
+  margin-left: 20px; /* Adjust margin as needed */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .header-container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: flex-start; /* Align items to the start on smaller screens */
+  }
+
+  .header-text {
+    margin-top: -11px; /* Add margin from logo */
+    margin-left: 60px; /* Remove left margin for smaller screens */
+  }
+
+  .register-button, .login-button {
+    width: 100%; /* Set width to full for smaller screens */
+    margin-top: 20px; /* Add margin between buttons */
+  }
+
+  .login-button {
+    margin-top: 10px;
+    margin-left: 0px; /* Reduce margin for login button */
+  }
+}

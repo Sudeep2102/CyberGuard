@@ -1,0 +1,29 @@
+/* Set background color of whole area to light blue */
+.disclaimer-body {
+    background-color: #f0f8ff; /* Light blue background color */
+}
+
+.disclaimer-container,
+.disclaimer-text {
+    background-color: rgba(255, 255, 255, 0.8); /* White box with 50% transparency */
+    padding: 20px;
+    margin-left: auto; /* Set left margin to auto */
+    margin-right: auto; /* Set right margin to auto */
+    width: 80%; /* Adjust width to 80% */
+    max-width: 600px; /* Optional: Set maximum width of the container */
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .disclaimer-container,
+    .disclaimer-text {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .disclaimer-container,
+    .disclaimer-text {
+        width: 95%; /* Adjust width for even smaller screens */
+    }
+}

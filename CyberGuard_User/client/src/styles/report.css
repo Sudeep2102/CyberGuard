@@ -1,0 +1,179 @@
+/* report.css */
+
+/* CSS for input tabs beside the question field */
+.report-content {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0f2f1; /* Light blue background */
+}
+
+.complaint-details {
+  margin-top: 20px;
+  margin-bottom: 0; /* Remove bottom margin */
+  background-color: rgba(255, 255, 255, 0.5); /* White background with 50% transparency */
+  border-radius: 20px; /* Circular-ended background */
+  padding: 20px;
+}
+
+.complaint-details-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.complaint-details-heading h2,
+.complaint-details-heading p {
+  font-size: 16px; /* Same font size as current text */
+}
+
+.complaint-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Ensure form takes full width */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start; /* Align items to the start */
+  margin-bottom: 10px; /* Add gap between each form group */
+  width: 80%; /* Set width for form groups */
+  position: relative; /* For positioning help button */
+}
+
+label {
+  width: 100%; /* Ensure label takes full width */
+  text-align: left; /* Align label text to left */
+  white-space: nowrap; /* Prevent label from wrapping */
+}
+
+input[type="text"],
+input[type="datetime-local"],
+select,
+textarea {
+  width: 100%; /* Ensure input takes full width */
+  margin-top: 5px; /* Add some space between label and input */
+  padding-right: 30px; /* Adjust padding to accommodate help button */
+}
+
+/* Help button styles */
+.help-button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Tooltip styles */
+.help-button:hover::after {
+  content: attr(data-tooltip); /* Use the data-tooltip attribute for the text */
+  position: absolute;
+  top: -30px; /* Position above the button */
+  right: 50%;
+  transform: translateX(50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 12px;
+  z-index: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media screen and (min-width: 600px) {
+  .form-group {
+    flex-direction: row; /* Stack elements horizontally on larger screens */
+    align-items: center; /* Align items vertically */
+    width: 70%; /* Adjust width for form groups */
+  }
+
+  label {
+    width: 40%; /* Adjust label width for larger screens */
+  }
+
+  input[type="text"],
+  input[type="datetime-local"],
+  select,
+  textarea {
+    width: 60%; /* Adjust input width for larger screens */
+    margin-top: 0; /* Remove margin */
+    margin-left: 10px; /* Add some space between label and input */
+  }
+}
+
+.save-button {
+  background-color: #4caf50; /* Green color for save button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px; /* Add space between form and save button */
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+
+/* Footer Styles - Renamed to avoid conflicts */
+.report-footer {
+  background-color: #2694B6;
+  color: #fff;
+  padding: 0px 20px; /* Adjust padding to reduce height */
+  margin-top: 0; /* Remove top margin */
+}
+
+.report-button-container {
+  display: flex;
+  margin-top: 0; /* Remove top margin */
+}
+
+.report-footer-button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 14px 16px; /* Adjust padding for button size */
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Change background-color instead of color */
+}
+
+.report-footer-button:hover {
+  background-color: #2EC5CB; /* Change to desired hover color */
+  padding: 10px 20px;
+}
+
+.report-divider {
+  width: 1px;
+  background-color: #fff;
+  margin: 0 8px; /* Adjust margin as needed */
+}
+
+@media (max-width: 768px) {
+  .report-button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .report-divider {
+    display: none;
+  }
+
+  .report-footer-button {
+    margin-bottom: 8px; /* Adjust margin between buttons in mobile view */
+  }
+}
